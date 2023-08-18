@@ -1,8 +1,8 @@
 <template>
     <div>
-        <img src="@/ui/assets/images/TrianguloVerde.png" alt="Triángulo Verde" class="triangulo-verde">
-        <img src="@/ui/assets/images/TrianguloAmarillo.png" alt="Triángulo Amarillo" class="triangulo-amarillo">
-        <img src="@/ui/assets/images/TrianguloNaranja.png" alt="Triángulo Naranja" class="triangulo-naranja">
+        <img src="@/ui/assets/images/TrianguloVerde.webp" alt="Triángulo Verde" class="triangulo-verde">
+        <img src="@/ui/assets/images/TrianguloAmarillo.webp" alt="Triángulo Amarillo" class="triangulo-amarillo">
+        <img src="@/ui/assets/images/TrianguloNaranja.webp" alt="Triángulo Naranja" class="triangulo-naranja">
     </div>
 </template>
 

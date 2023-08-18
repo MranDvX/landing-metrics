@@ -21,7 +21,7 @@ export default ({
 
 <style scoped>
 .landing-container {
-    background-image: url('@/ui/assets/images/Background.png');
+    background-image: url('@/ui/assets/images/Background.webp');
     display: flex;
     margin: 0;
     padding: 0;
