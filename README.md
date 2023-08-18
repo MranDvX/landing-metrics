@@ -3,7 +3,7 @@
 Built following the **Hexagonal Architecture** pattern with **Vue.js** and **TypeScript** to ensure separation of responsibilities, ease testing and keep business logic decoupled from external details.
 
 ## 👀 Demo
-- [Landing Page on Netlify](landing-metrics.netlify.app)
+- [Landing Page on Netlify](https://landing-metrics.netlify.app/)
 
 ## 📘 Architecture and patterns
 
@@ -102,4 +102,4 @@ Este proyecto cuenta con pruebas unitarias y end-to-end para asegurar la calidad
 
 ## 📖 Additional Resources
 - [Adobe XD](https://xd.adobe.com/view/7a960ded-077f-4cf0-a0b1-e7538530864f-2fc5/specs/)
-- [Landing Page on Netlify](landing-metrics.netlify.app)
+- [Landing Page on Netlify](https://landing-metrics.netlify.app/)
