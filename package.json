@@ -10,10 +10,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/d3": "^7.4.0",
+    "axios": "^1.4.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "d3": "^7.8.5",
+    "vue": "^3.2.13",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
