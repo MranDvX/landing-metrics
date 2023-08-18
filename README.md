@@ -1,14 +1,17 @@
 # Landing Metrics
 
-Construido siguiendo el patrón de **Arquitectura Hexagonal** con **Vue.js 3** y **TypeScript** para asegurar la separación de responsabilidades, facilitar la prueba y mantener la lógica de negocio desacoplada de detalles externos.
+Built following the **Hexagonal Architecture** pattern with **Vue.js** and **TypeScript** to ensure separation of responsibilities, ease testing and keep business logic decoupled from external details.
 
 ## 👀 Demo
-- [Demo de la landing](landing-metrics.netlify.app)
+- [Landing Page on Netlify](landing-metrics.netlify.app)
 
-## 🚀 Inicio rápido
+## 📘 Architecture and patterns
 
-1. **Distribución de carpetas**
-    ```bash
+This project follows the Hexagonal Architecture pattern, which allows a clear separation between business logic and external technical details. This facilitates adaptability, testing and code maintenance.
+
+**Folder distribution**
+
+    ``bash
     src/
     |-- adapters/
     |   |-- DataAPIAdapter.ts
@@ -41,62 +44,61 @@ Construido siguiendo el patrón de **Arquitectura Hexagonal** con **Vue.js 3** y
     |   |-- unit/
     |   |   |-- ...
     |
-    ```
+    ``
 
-2. **Inicio Rápido**
-    
-   Asegúrate de tener `yarn` instalado. Si no lo tienes, puedes descargarlo desde [aquí](https://classic.yarnpkg.com/en/docs/install/). Luego, instala las dependencias del proyecto:
+## 🚀 Quick start
 
-   ```bash
+1. **Proyect Documentation**
+
+   Make sure you have `yarn` installed. If you don't have it, you can download it from [here](https://classic.yarnpkg.com/en/docs/install/). Then, install the project dependencies:
+
+   ``bash
    yarn install
-    ```
-3. **Desarrollo local**
+    ``
+2. **Local development**
 
-    Para iniciar un servidor de desarrollo con recarga en caliente:
+    To start a development server with hot reloading:
 
-    ```bash
+    ``bash
    yarn serve
-   ```
-    Esto compilará y servirá tu proyecto, mostrando cambios en tiempo real.
+   ``
+    This will compile and serve your project, showing changes in real time.
 
-4. **Construcción para producción**
+3. **Production**
 
-    Cuando estés listo para crear una versión de producción:
-    ```bash
+    When you are ready to create a production version:
+
+    ``bash
    yarn build
-   ```
-   Esto optimizará y minimizará los archivos compilados en la carpeta dist.
+   ``
+   This will optimize and minimize the compiled files in the dist folder.
 
-## 🧪 Pruebas
+## 🧪 Test
     
 Este proyecto cuenta con pruebas unitarias y end-to-end para asegurar la calidad y funcionalidad del código.
 
-- Pruebas unitarias
+- Unit test
 
-    Utilizamos Jest para las pruebas unitarias. Ejecuta las pruebas con:
+    We use Jest for unit testing. Run the tests with:
 
-    ```bash
+    ``bash
     yarn test:unit
-    ```
-- Pruebas end-to-end
+    ``
+- Test E2E
 
-    Las pruebas E2E son realizadas usando Cypress. Puedes ejecutarlas con:
+    E2E tests are performed using Cypress. You can run them with:
 
-    ```bash
+    ``bash
     yarn test:e2e
-    ```
-## 🛠️ Herramientas y configuración
+    ``
+## 🛠️ Tools and configuration
 - Linter
 
-    Asegúrate de que tu código siga las mejores prácticas y corrige automáticamente los problemas detectados:
+    Make sure your code follows best practices and automatically fixes detected problems:
 
-    ```bash
+    ``bash
     yarn lint
-    ```
-
-## 📘 Arquitectura y patrones
-
-Este proyecto sigue el patrón de Arquitectura Hexagonal, lo que permite una separación clara entre la lógica de negocio y los detalles técnicos externos. Esto facilita la adaptabilidad, las pruebas y el mantenimiento del código.
+    ``
 
 ## 📖 Recursos adicionales
 - [Adobe XD](https://xd.adobe.com/view/7a960ded-077f-4cf0-a0b1-e7538530864f-2fc5/specs/)
