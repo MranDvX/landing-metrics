@@ -100,5 +100,6 @@ Este proyecto cuenta con pruebas unitarias y end-to-end para asegurar la calidad
     yarn lint
     ``
 
-## 📖 Recursos adicionales
+## 📖 Additional Resources
 - [Adobe XD](https://xd.adobe.com/view/7a960ded-077f-4cf0-a0b1-e7538530864f-2fc5/specs/)
+- [Landing Page on Netlify](landing-metrics.netlify.app)
