@@ -1,8 +1,14 @@
-// https://docs.cypress.io/api/table-of-contents
+describe('Excel Download', () => {
+  beforeEach(() => {
+    cy.visit('/');
+  });
 
-describe('My First Test', () => {
-  it('Visits the app root url', () => {
-    cy.visit('/')
-    cy.contains('h1', 'Welcome to Your Vue.js + TypeScript App')
-  })
-})
+  it('should display DollarChart modal and allow downloading Excel', () => {
+    cy.get('button.landing-btn').click();
+    
+    cy.get('#chart').should('be.visible');
+    
+    cy.get('button.button-primary').click();
+    
+  });
+});
